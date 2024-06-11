@@ -22,6 +22,7 @@ Kelas : S1SD04-B
 ## Guided
 ## 1. Graph
 ```C++
+
 ```
 ## 2. Tre
 ```C++
@@ -140,4 +141,15 @@ int main() {
 }
 ```
 ### Output : 
-![https://github.com/yokaroo/Praktikum-Struktur-Data-Asignment-Modul10/blob/main/Screenshot%202024-06-11%20223500.png]
+![Screenshot 2024-06-11 223500](https://github.com/yokaroo/Praktikum-Struktur-Data-Asignment-Modul10/blob/main/Screenshot%202024-06-11%20223500.png)
+## Iterpretasi:
+Kode di atas merupakan implementasi dasar dari sebuah pohon biner menggunakan bahasa pemrograman C++. Pertama-tama, struktur pohon didefinisikan dengan nama `pohon`, yang memiliki tiga anggota: `kanan`, `data`, dan `kiri`. Selanjutnya, beberapa variabel global dideklarasikan, termasuk `root` yang merupakan akar pohon, serta `simpul`, `saatIni`, dan array `alamat` yang digunakan untuk menyimpan alamat simpul.
+
+Fungsi `inisialisasi` digunakan untuk menginisialisasi `root` menjadi `NULL`. Fungsi `simpulBaru` membuat simpul baru dengan data yang diberikan dan mengatur anak kiri dan kanan menjadi `NULL`. Fungsi `simpulAkar` digunakan untuk membuat akar pohon jika belum ada, dengan meminta pengguna memasukkan data untuk akar.
+
+Fungsi `tambahSimpul` digunakan untuk menambahkan simpul baru ke dalam pohon. Dalam fungsi ini, data dimasukkan oleh pengguna untuk anak kiri dan kanan dari setiap simpul secara berurutan, dan alamat simpul disimpan dalam array `alamat`. Pengguna dapat menghentikan penambahan simpul dengan memasukkan '0'.
+
+Fungsi `bacaPohon` digunakan untuk membaca dan mencetak data dari pohon secara level-order, dengan menggunakan array `alamat` untuk mengakses setiap simpul. Fungsi ini mencetak data dari setiap simpul dan membuat baris baru setiap kali level pohon berubah.
+
+Terakhir, dalam fungsi `main`, program menginisialisasi pohon, membuat simpul akar, menambah simpul-simpul baru, dan kemudian membaca serta mencetak pohon yang telah dibuat.
+

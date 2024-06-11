@@ -139,3 +139,5 @@ int main() {
     return 0;
 }
 ```
+### Output : 
+![https://github.com/yokaroo/Praktikum-Struktur-Data-Asignment-Modul10/blob/main/Screenshot%202024-06-11%20223500.png]
